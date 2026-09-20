@@ -410,7 +410,6 @@ SYMBOL TABLE:
 000000dc g     F .text	00000018 Actor_ResolveOverlayAddr
 00000000         *UND*	00000000 CFG_DUNGEON_REWARD_AREAS
 80001e20 g       *ABS*	00000000 osSendMesg
-00000000         *UND*	00000000 ovl_enkusa_draw
 0001bb2c g     F .text	00000078 collectible_draw_other
 000140cc g     F .text	00000108 draw_gi_goron_swords
 00005274 g     F .text	0000150c draw_dpad_and_menu_utilities
@@ -808,6 +807,7 @@ SYMBOL TABLE:
 0001e174 g     F .text	00000014 Seeded_Reset
 00028a70 g     O .data	00000004 beating_dd
 000008cc g     F .text	00000154 draw_agony_graphic
+80a80a50 g       *ABS*	00000000 OVL_EnKusa_Draw
 00018658 g     F .text	00000078 seeds_to_rupee
 00012ed8 g     F .text	00000070 is_hook_static
 00017b5c g     F .text	0000000c give_fairy_ocarina

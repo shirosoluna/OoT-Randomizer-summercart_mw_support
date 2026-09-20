@@ -41,6 +41,7 @@ z64_sEquipMoveTimer = 0x8039EAB8;
 gActorOverlayTable = 0x800E8530;
 Message_CloseTextbox = 0x800d6218;
 sSetupDL = 0x800f7d50;
+OVL_EnKusa_Draw = 0x80a80a50;
 OVL_EnOkarinaTag_Action2 = 0x80a872d0;
 OVL_EnOkarinaTag_Action1 = 0x80a87088;
 ObjHana_Draw = 0x80abc1c8;

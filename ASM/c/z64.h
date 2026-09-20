@@ -1365,7 +1365,7 @@ typedef enum {
 } CameraModeType;
 
 /* game context */
-typedef struct {
+typedef struct z64_game_t {
   z64_ctxt_t       common;                 /* 0x00000 */
   uint16_t         scene_index;            /* 0x000A4 */
   uint8_t          scene_config;           /* 0x000A6  */
@@ -1558,7 +1558,7 @@ typedef struct {
                                               /* 0x0030 */
 } z64_state_ovl_t;
 
-typedef struct {
+typedef struct  {
   /* state ? */
   int32_t           state;                    /* 0x0000 */
   /* elapsed time */
